@@ -16,9 +16,10 @@ def header_home():
             width=100
         )
 
+    
     st.markdown("""
     <h1 style="
-        color: #E0E3FF;
+        color: #E0E3FF ;
         text-align: center;
         font-size: 70px;
         font-weight: 900;
@@ -47,15 +48,16 @@ def header_dashboard():
 
         # with text_col:
     with c2:
+        
         st.markdown("""
-                    <h2 style="
+                    <h1 style="
                     color:#5865f2;
                     font-size:70px;
                     font-weight:900;
                     line-height:0.8;
                     margin:0;
                     ">SNAP<br>CLASS
-                    </h2>
+                    </h1>
         """, unsafe_allow_html=True)
 
     

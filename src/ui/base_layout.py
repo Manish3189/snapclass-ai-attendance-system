@@ -51,30 +51,31 @@ def style_base_layer():
 
                 h1{
                     font-family: 'Climate Crisis',sans-serif !important;
-                    font-size : 2.5rem !important;
+                    font-size : 2rem !important;
                     
                     line-height : 1.1 !important;
                     margin-bottom: 0rem !important;
+                    # color : #5865f2 ! important;
                    
                 }
 
                 h2{
                     font-family: 'Climate Crisis', sans-serif !important;
                     font-size: 2rem !important;
-                    line-height:0.9 !important;
+                    line-height:0.95 !important;
                     margin-bottom:0rem !important;   
-                  
+                    color : black ! important;
 
                 }
 
                 h3,h4,p {
                     font-family: 'Outfit',sans-serif !important;
-                    
+                    color : black !important;
                 }
 
                 button[kind="primary"] {
                     border-radius : 1.5rem !important;
-                    background : #5865f2 !important;
+                    background-color : #5865f2 !important;
                     color : white !important;
                     padding : 10px 20px !important;
                     border : none !important;
@@ -83,7 +84,7 @@ def style_base_layer():
 
                 button[kind="secondary"] {
                     border-radius : 1.5rem !important;
-                    background : #EB459E !important;
+                    background-color : #EB459E !important;
                     color : white !important;
                     padding : 10px 20px !important;
                     border : none !important;
@@ -92,13 +93,19 @@ def style_base_layer():
 
                 button[kind="tertiary"] {
                     border-radius : 1.5rem !important;
-                    background : black !important;
-                    color : white !important;
+                    background-color: black !important;
+                    color: #FFFFFF !important;
                     padding : 10px 20px !important;
                     border : none !important;
                     transition : transform 0.25s ease-in-out !important;
                 }
+                button[kind="tertiary"] p {
+                    color: white !important;
+                }
 
+button[kind="tertiary"] span {
+    color: white !important;
+}
                 button:hover{
                     transform : scale(1.05)}
                 
